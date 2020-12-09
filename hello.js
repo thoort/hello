@@ -9,7 +9,7 @@ http.createServer(function (request, response) {
    port = process.env.PORT ? process.env.PORT : port ;
 
    response.writeHead(200, {'Content-Type': 'text/plain'});
-   response.end('Hello ' + target + '\n');
+   response.end('Shalom ' + target + '\n');
 }).listen(port);
 
 console.log('Server running at on port ' + port);
